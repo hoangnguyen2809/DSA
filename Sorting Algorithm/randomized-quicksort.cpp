@@ -118,7 +118,7 @@ int main() {
         // std::cout << "\nRandomized quicksort variant performed in " << duration << " microseconds." << std::endl;
 
         auto start_time = std::chrono::high_resolution_clock::now();
-        randomized_quicksort_variant(test_array, 0, n - 1, 8);
+        randomized_quicksort_variant(test_array, 0, n - 1, 2);
         auto end_time = std::chrono::high_resolution_clock::now();
         auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end_time - start_time).count();
         std::cout << "\nRandomized quicksort variant performed in " << duration << " microseconds." << std::endl;

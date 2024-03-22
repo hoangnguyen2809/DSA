@@ -9,8 +9,6 @@ void print_array(std::vector<int>& A)
     }
 }
 
-
-
 void merge(std::vector<int>& A, int left, int mid, int right)
 {
     int leftArrSize = mid - left +1;
